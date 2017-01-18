@@ -1,0 +1,860 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Is-awesome - bulma template</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta name="description" content="Is-awesome is an open source Bulma template.">
+        <meta name="keywords" content="bulma, bulma template, template, is-awesome, html template, bulma.io, bulma.io template, is-awesome template, dashboard,
+        dashboard template, bulma dashboard"> 
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="icons/favicon-194x194.png" sizes="194x194">
+        <link rel="icon" type="image/png" href="icons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="icons/manifest.json">
+        <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="icons/favicon.ico">
+        <meta name="msapplication-config" content="icons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.0/css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="dist/css/is-awesome.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    </head>
+	<body>
+	<nav class="nav has-shadow is-fixed-top">
+		<div class="container">
+			<div class="nav-left">
+			  	<a class="nav-item is-brand" href="https://ettorej.github.io/is-awesome/">is-awesome</a>
+			  	<a id="menu" class="nav-item is-tab">
+			  		<span class="icon">
+			  			<i class="fa fa-bars"></i>
+			  		</span>
+	  			</a>
+			</div>
+			<div class="nav-right is-hidden-mobile">
+			  	<div class="nav-item dropdown">
+			  		<a class="dropbtn">
+			  			<span class="icon">
+				  			<i class="fa fa-bell-o"></i>
+				  		</span>
+				  		<span class="label label-danger">8</span>
+			  		</a>
+			  		<div class="dropdown-content">
+						<a class="divider-text">You have 4 new meetings</a>
+						<div class="scrollable-items">
+							<a href="#">
+								<div class="meeting">
+									<span class="icon is-small">
+										<i class="fa fa-trash-o"></i>
+									</span>
+									<span style="vertical-align: top;"> 4 messages deleted</span>
+								</div>
+							</a>
+							<a href="#">
+								<div class="meeting">
+									<span class="icon is-small">
+										<i class="fa fa-id-card-o"></i>
+									</span>
+									<span style="vertical-align: top;"> You changed your profile</span>
+								</div>
+							</a>
+							<a href="#">		
+								<div class="meeting">
+									<span class="icon is-small">
+										<i class="fa fa-info-circle"></i>
+									</span>
+									<span style="vertical-align: top;"> 5 new members</span>
+								</div>
+							</a>
+							<a href="#">		
+								<div class="meeting">
+									<span class="icon is-small">
+										<i class="fa fa-thumbs-up"></i>
+									</span>
+									<span style="vertical-align: top;"> 2 more likes</span>
+								</div>
+							</a>
+							<a href="#">		
+								<div class="meeting">
+									<span class="icon is-small">
+										<i class="fa fa-shopping-cart"></i>
+									</span>
+									<span style="vertical-align: top;"> 5 sales made</span>
+								</div>
+							</a>
+						</div>
+						<a href="#">See all notifications</a>
+			  		</div>
+			  	</div>
+			  	<div class="nav-item dropdown">
+			  		<a class="dropbtn">
+						<span class="icon">
+				  			<i class="fa fa-calendar-o"></i>
+				  		</span>
+				  		<span class="label label-success">4</span>
+				  	</a>
+					<div class="dropdown-content">
+						<a class="divider-text">You have 4 new meetings</a>
+						<div class="scrollable-items">
+							<a href="#">
+								<div class="meeting">
+									<p>Mr JB Straubel - Tesla Motors</p>
+									<small>today 8am</small>
+								</div>
+							</a>
+							<a href="#">
+								<div class="meeting">
+									<p>Mr Carlos Tavares - Peugeot</p>
+									<small>today 5pm</small>
+								</div>
+							</a>
+							<a href="#">		
+								<div class="meeting">
+									<p>Mr Akio Toyoda - Toyota Motor Corporation</p>
+									<small>in 2 days 2pm</small>
+								</div>
+							</a>
+							<a href="#">		
+								<div class="meeting">
+									<p>Mr Harald Krüger - BMW</p>
+									<small>in 7 days 4pm</small>
+								</div>
+							</a>
+						</div>
+						<a href="#">See all meetings</a>
+					</div>
+				</div>
+			  	<div class="nav-item dropdown">
+				  	<a class="dropbtn">
+				  		<span class="icon">
+				  			<i class="fa fa-envelope-o"></i>
+				  		</span>
+			  			<span class="label label-warning">12</span>
+				  	</a>
+				  	<div class="dropdown-content">
+				  		<a class="divider-text">You have 12 new messages</a>
+				  		<div class="scrollable-items">
+					  		<a href="#">
+								<article class="media">
+							      <figure class="media-left">
+							        <p class="image is-32x32">
+							          <img src="img/96x96.png">
+							        </p>
+							      </figure>
+							      <div class="media-content">
+							        <div class="content">
+							          	<small>
+							          		<strong>Jenna Sandoval</strong><br>
+							           		<p>I'll get my kit!</p>
+							          	</small>
+							        </div>
+							      </div>
+							    </article>
+						    </a>
+						    <a href="#">
+								<article class="media">
+							      <figure class="media-left">
+							        <p class="image is-32x32">
+							          <img src="img/96x96.png">
+							        </p>
+							      </figure>
+							      <div class="media-content">
+							        <div class="content">
+							          	<small>
+							          		<strong>Zachary Clayton</strong><br>
+							           		It's art! 
+							          	</small>
+							        </div>
+							      </div>
+							    </article>
+						    </a>
+						    <a href="#">
+								<article class="media">
+							      <figure class="media-left">
+							        <p class="image is-32x32">
+							          <img src="img/96x96.png">
+							        </p>
+							      </figure>
+							      <div class="media-content">
+							        <div class="content">
+							          	<small>
+							          		<strong>Jenna Sandoval</strong><br>
+							           		No, I'll fix it. I'm good at fixing ...
+							          	</small>
+							        </div>
+							      </div>
+							    </article>
+						    </a>
+						    <a href="#">
+								<article class="media">
+							      <figure class="media-left">
+							        <p class="image is-32x32">
+							          <img src="img/96x96.png">
+							        </p>
+							      </figure>
+							      <div class="media-content">
+							        <div class="content">
+							          	<small>
+							          		<strong>Zachary Clayton</strong><br>
+							           		The way I see it, every life is a ...
+							          	</small>
+							        </div>
+							      </div>
+							    </article>
+						    </a>
+						    <a href="#">
+								<article class="media">
+							      <figure class="media-left">
+							        <p class="image is-32x32">
+							          <img src="img/96x96.png">
+							        </p>
+							      </figure>
+							      <div class="media-content">
+							        <div class="content">
+							          	<small>
+							          		<strong>Zachary Clayton</strong><br>
+							           		Saving the world with meals ...
+							          	</small>
+							        </div>
+							      </div>
+							    </article>
+						    </a>
+					    </div>
+					    <a href="#">See all messages</a>
+					</div>
+				</div>
+				<div class="nav-item dropdown user">
+					<a class="dropbtn">Sarah Fisher</a>
+					<div class="dropdown-content">
+						<div class="card is-fullwidth">
+							<div class="card-content">
+								<div class="content">
+									<figure class="image is-64x64 is-centered-mobile">
+								 		<img src="img/64x64.png"/>
+								 	</figure>
+								 	<p class="heading">Sarah Fisher</p>
+									<p class="subtitle is-6">Web developper</p>
+								  	<small>11:09 PM - 1 Jan 2016</small>
+								</div>
+							</div>
+							<footer class="card-footer">
+								<a href="pages/profile.html" class="card-footer-item">Profile</a>
+								<a href="#" class="card-footer-item">Log out</a>
+							</footer>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+    <div id="side-nav" class="sidenav">
+        <aside class="menu">
+            <div class="user-side-bar">
+                <div class="background"></div>
+                <figure class="image is-48x48">
+                    <img src="img/256x256.png">
+                </figure>
+                <p class="heading">Sarah Ficher<br>sfisher@is-awesome.com</p>
+                <p class="">Web developper</p>
+            </div>
+
+            <div class="search-side-bar">
+                <p class="control has-icon has-icon-right side-bar-style">
+                  <input class="input" type="text" placeholder="Search">
+                  <span class="icon is-small">
+                    <i class="fa fa-search"></i>
+                  </span>
+                </p>
+            </div>
+
+            <div class="content-side-bar">
+                <div class="is-hidden-tablet">
+                    <p class="menu-label">Navigation</p>
+                    <ul class="menu-list">
+                        <li><a href="#">Notifications <span class="tag is-danger is-small is-pulled-right">8</span></a></li>
+                        <li><a href="#">Meetings <span class="tag is-success is-small is-pulled-right">4</span></a></li>
+                        <li><a href="#">Messages <span class="tag is-warning is-small is-pulled-right">12</span></a></li>
+                    </ul>
+                </div>
+
+                <p class="menu-label">General</p>
+                <ul class="menu-list">
+                    <li><a href="index.html" class="is-active">Dashboard</a></li>
+                    <li class="treeview">
+                        <a>Pages<span class="is-pulled-right"><i class="fa fa-angle-left"></i></span></a>
+                        <ul class="treeview-menu">
+                            <li><a href="pages/profile.html">Profile</a></li>
+                            <li><a href="pages/login.html">Login</a></li>
+                            <li><a href="pages/register.html">Register</a></li>
+                            <li><a href="pages/invoice.html">Invoice</a></li>
+                            <li><a href="pages/error/404.html">404 error</a></li>
+                            <li><a href="pages/error/500.html">500 error</a></li>
+                            <li>
+                                <a href="pages/product.html">Product</a>
+                                <ul>
+                                    <li><a href="pages/detail-product.html">Detail</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a>Mailbox<span class="is-pulled-right"><i class="fa fa-angle-left"></i></span></a>
+                        <ul class="treeview-menu">
+                            <li><a href="pages/mailbox/mailbox.html">Inbox</a></li>
+                            <li><a href="pages/mailbox/composemail.html">Compose a mail</a></li>
+                            <li><a href="pages/mailbox/readmail.html">Read a mail</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pages/calendar.html">Calendar</a></li>
+                    <li class="treeview">
+                        <a>Elements<span class="is-pulled-right"><i class="fa fa-angle-left"></i></span></a>
+                        <ul class="treeview-menu">
+                            <li><a href="pages/elements/tabs.html">General</a></li>
+                            <li><a href="pages/elements/packages.html">Packages</a></li>
+                            <li><a href="pages/elements/datatables.html">DataTables</a></li>
+                            <li><a href="pages/elements/validation.html">Validator</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+	<div id="main">
+
+		<section class="section">
+			<div class="container">
+				<div class="heading">
+					<h1 class="title">Dashboard</h1><h5 class="subtitle">Version 0.1</h5>
+				</div>
+			</div>
+		</section>
+
+		
+		<div class="notification">
+		  <div class="container">
+		  	<span class="icon is-small">
+		   		<i class="fa fa-tachometer" aria-hidden="true"></i>
+		   	</span> 
+		   	Home > <b> Dashboard</b>
+		  </div>
+		</div>
+
+		<section class="section">
+			<div class="container">
+				<div class="content">
+					<div class="columns">
+					  <div class="column">
+					  	<div class="box-info">
+					    	<div class="box-icon is-info">
+					    		<span class="icon">
+					    			<i class="fa fa-user-o"></i>
+					    		</span>
+					    	</div>
+					    	<p><b>New membres</b><br>1045</p>
+					    </div>
+					  </div>
+					  <div class="column">
+					    <div class="box-info">
+					    	<div class="box-icon">
+					    		<span class="icon">
+					    			<i class="fa fa-shopping-bag"></i>
+					    		</span>
+					    	</div>
+					    	<p><b>Sales</b><br>942</p>
+					    </div>
+					  </div>
+					  <div class="column">
+					    <div class="box-info">
+					    	<div class="box-icon is-danger">
+					    		<span class="icon">
+					    			<i class="fa fa-thumbs-up"></i>
+					    		</span>
+					    	</div>
+					    	<p><b>Likes</b><br>32,342</p>
+					    </div>
+					  </div>
+					  <div class="column">
+					    <div class="box-info">
+					    	<div class="box-icon is-primary">
+					    		<span class="icon">
+					    			<i class="fa fa-comment-o"></i>
+					    		</span>
+					    	</div>
+					    	<p><b>Messages</b><br>2,452</p>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="hero is-light">
+			<div class="hero-body">
+				<div class="container">
+				 	<h1 class="title">Report</h1>
+					<div class="columns">
+						<div class="column is-half is-offset-one-quarter">
+			        		<canvas id="chart" class="is-centered-mobile" style="max-width: 400px; max-height: 400px"></canvas>
+			        	</div>
+			        </div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+		 	<div class="container">
+				<div class="content">
+				    <div class="content">
+				    	<span>Add Products to Cart</span>
+				      	<progress class="progress" value="3" max="20">15%</progress>
+				      	<span>Purchase</span>
+						<progress class="progress is-info" value="14" max="20">45%</progress>
+						<span>Premium account</span>
+						<progress class="progress is-success" value="16" max="20">60%</progress>
+						<span>Send Inquiries</span>
+						<progress class="progress is-warning" value="7" max="20">75%</progress>
+						<span>Likes</span>
+						<progress class="progress is-danger" value="11" max="20">90%</progress>
+				    </div>
+				</div>
+			</div>
+		</section>
+
+		<section class="hero is-light">
+			<div class="hero-body">
+				<div class="container">
+				 	<nav class="level is-mobile">
+					  <div class="level-item has-text-centered has-border-right">
+					  	<div>
+						    <span class="expand-less">
+						    	<span class="icon">
+						    		<i class="fa fa-angle-down"></i> 
+						    	</span>
+						    	7%
+						    </span>
+						    <p class="title">3,456</p>
+						    <p class="heading">Tweets</p>
+					    </div>
+					  </div>
+					  <div class="level-item has-text-centered has-border-right">
+					  	<div>
+						  	<span class="expand-equal">
+						  		<span class="icon">
+						    		<i class="fa fa-angle-right"></i>
+						    	</span> 
+						    	0%
+						    </span>
+						    <p class="title">123</p>
+						    <p class="heading">Following</p>
+					    </div>
+					  </div>
+					  <div class="level-item has-text-centered has-border-right">
+					  	<div>
+						  	<span class="expand-more">
+						  		<span class="icon">
+						    		<i class="fa fa-angle-up"></i> 
+						    	</span> 
+						    	5%
+						    </span>
+						    <p class="title">456K</p>
+						    <p class="heading">Followers</p>
+					    </div>
+					  </div>
+					  <div class="level-item has-text-centered">
+					  	<div>
+						  	<span class="expand-more">
+						  		<span class="icon">
+						    		<i class="fa fa-angle-up"></i> 
+						    	</span>
+						    	9%
+						    </span>
+						    <p class="title">789</p>
+						    <p class="heading">Likes</p>
+					    </div>
+					  </div>
+					</nav>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<div class="columns">
+					<div class="column is-4">
+						<div class="notification is-success">
+						  <button class="delete"></button>
+						  Success lorem ipsum dolor sit amet, consectetur
+						  adipiscing elit lorem ipsum dolor sit amet,
+						  consectetur adipiscing elit
+						</div>
+					</div>
+					<div class="column is-4">
+						<div class="notification is-warning">
+						  <button class="delete"></button>
+						  Warning lorem ipsum dolor sit amet, consectetur
+						  adipiscing elit lorem ipsum dolor sit amet,
+						  consectetur adipiscing elit
+						</div>
+					</div>
+					<div class="column is-4">
+						<div class="notification is-danger">
+						  <button class="delete"></button>
+						  Danger lorem ipsum dolor sit amet, consectetur
+						  adipiscing elit lorem ipsum dolor sit amet,
+						  consectetur adipiscing elit
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="hero is-light">
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title">
+				        Live Chat
+			      	</h1>
+					<div class="columns">
+						<div class="column is-8 is-offset-2 chat">
+							<article class="media">
+							  <figure class="media-left">
+							    <p class="image is-64x64">
+							      <img src="img/128x128.png">
+							    </p>
+							  </figure>
+							  <div class="media-content">
+							    <div class="content">
+							    	<span><b>Cody Curtis </b>31m</span>
+							     	<div class="notification chat-yellow">
+							     		Hey :)
+							     	</div>
+							    </div>
+							    <nav class="level">
+							      <div class="level-left">
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							      </div>
+							    </nav>
+							  </div>
+							</article>
+							<article class="media">
+							  <div class="media-content">
+							    <div class="content on-right">
+							      	<span><b>Sarah Fisher </b>32m</span>
+							     	<div class="notification chat-grey">
+							     		Hey ! What's up ? 
+							     	</div>
+							    </div>
+							    <nav class="level">
+							      <div class="level-left">
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							      </div>
+							    </nav>
+							  </div>
+							  <figure class="media-left">
+							    <p class="image is-64x64">
+							      <img src="img/128x128.png">
+							    </p>
+							  </figure>
+							</article>
+							<article class="media">
+							  <figure class="media-left">
+							    <p class="image is-64x64">
+							      <img src="img/128x128.png">
+							    </p>
+							  </figure>
+							  <div class="media-content">
+							    <div class="content">
+							       	<div class="content">
+								    	<span><b>Cody Curtis </b>36m</span>
+								     	<div class="notification chat-yellow">
+								     		Working on a bulma template! Wanna join?
+								     	</div>
+								    </div>
+							    </div>
+							    <nav class="level">
+							      <div class="level-left">
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							      </div>
+							    </nav>
+							  </div>
+							</article>
+							<article class="media">
+							  <div class="media-content">
+						     	<div class="content on-right">
+							      	<span><b>Sarah Fisher </b>38m</span>
+							     	<div class="notification chat-grey">
+							     		I'd love to.
+							     	</div>
+							    </div>
+							    <nav class="level">
+							      <div class="level-left">
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							        <a class="level-item">
+							          <span class="icon is-small"></span>
+							        </a>
+							      </div>
+							    </nav>
+							  </div>
+							  <figure class="media-left">
+							    <p class="image is-64x64">
+							      <img src="img/128x128.png">
+							    </p>
+							  </figure>
+							</article>
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column is-8 is-offset-2">
+							<p class="control has-addons has-addons-right">
+							  <input class="input is-yellow" type="text" placeholder="Whrite a message ..." style="width: 90%">
+							  <a class="button is-yellow" style="width: 20%">
+							    Send
+							  </a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<h1 class="title">Our Team <span class="tag is-danger is-small">4 new membres</span></h1>
+				<div class="columns">
+					<div class="column">
+						<div class="patch">
+							<figure class="patch-image image is-96x96">
+						  		<img src="img/256x256.png">
+							</figure>
+							<div class="patch-content">
+								<p><b>Jenna Sandoval</b></p>
+								<p><small>Program Associate</small></p>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="patch">
+							<figure class="image is-96x96">
+						  		<img src="img/256x256.png">
+							</figure>
+							<div class="patch-content">
+								<p><b>Miranda Dillon</b></p>
+								<p><small>Marketing Manager</small></p>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="patch">
+							<figure class="image is-96x96">
+						  		<img src="img/256x256.png">
+							</figure>
+							<div class="patch-content">
+								<p><b>Yoshio Hutchinson</b></p>
+								<p><small>CTO</small></p>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="patch">
+							<figure class="image is-96x96">
+						  		<img src="img/256x256.png">
+							</figure>
+							<div class="patch-content">
+								<p><b>Lynn Case</b></p>
+								<p><small>Executive Director</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="hero is-light">
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title"> Latest Oders</h1>
+					<div class="table-is-responsive">
+					 	<table class="table is-inverse">
+						  <thead>
+						    <tr>
+						      <th>Order Number</th>
+						      <th>Name</th>
+						      <th>Serial</th>
+						      <th>Statu</th>
+						      <th>Payment</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      	<td><a href="#">54732</a></td>
+						      	<td>Bass Guitar</td>
+						      	<td><a href="#">000124252</a></td>
+						      	<td><span class="tag is-danger is-small">Delivered</span></td>
+						      	<td class="is-icon">
+				     				<i class="fa fa-credit-card"></i>
+						      	</td>
+						    </tr>
+						    <tr>
+						      	<td><a href="#">48953</a></td>
+						      	<td>Tuning fork</td>
+						      	<td><a href="#">000478412</a></td>
+						      	<td><span class="tag is-warning is-small">Pending</span></td>
+						      	<td class="is-icon">
+				     				<i class="fa fa-usd"></i>
+						      	</td>
+						    </tr>
+						    <tr>
+						      	<td><a href="#">37815</a></td>
+						      	<td>iPhone 6 Plus</td>
+						      	<td><a href="#">012654485</a></td>
+						      	<td><span class="tag is-success is-small">Shipped</span></td>
+						      	<td class="is-icon">
+				     				<i class="fa fa-credit-card"></i>
+						      	</td>
+						    </tr>
+						    <tr>
+						      	<td><a href="#">75489</a></td>
+						      	<td>Tuning fork</td>
+						      	<td><a href="#">000478412</a></td>
+						      	<td><span class="tag is-info is-small">Processing</span></td>
+						      	<td class="is-icon">
+				     				<i class="fa fa-usd"></i>
+						      	</td>
+						    </tr>
+						    <tr>
+						      	<td><a href="#">73972</a></td>
+						      	<td>Samsung Smart TV</td>
+						      	<td><a href="#">078451321</a></td>
+						      	<td><span class="tag is-danger is-small">Delivered</span></td>
+						      	<td class="is-icon">
+				     				<i class="fa fa-eur"></i>
+						      	</td>
+						    </tr>
+						    <tr>
+						      	<td><a href="#">17515</a></td>
+						      	<td>iPhone 6 Plus</td>
+						      	<td><a href="#">012654485</a></td>
+						      	<td><span class="tag is-warning is-small">Pending</span></td>
+						      	<td class="is-icon">
+				     				<i class="fa fa-credit-card"></i>
+						      	</td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>
+					<a class="button is-primary is-outlined">New order</a>
+					<a class="button is-primary is-outlined is-pulled-right">See all orders</a>
+				</div>
+			</div>
+		</section>
+		<section class="hero is-light">
+			<div class="hero-body">
+				<div class="container">
+					<article class="message is-good">
+					  	<div class="message-header">
+					    	Orders in the world
+					  	</div>
+					  	<div class="message-body">
+						  	<div class="has-text-centered indicator-world-map">
+						  		<div class="case">
+							  		<p class="heading">Tuning fork</p>
+							  		<span class="icon">
+							  			<i class="fa fa-level-up"></i>
+							  		</span>
+							  		<p class="title">8,456</p>
+						  		</div>
+						  		<div class="case">
+							  		<p class="heading">Drum</p>
+						  			<span class="icon">
+							  			<i class="fa fa-level-down"></i>
+							  		</span>
+						  			<p class="title">1,056</p>
+					  			</div>
+					  			<div class="case">
+							  		<p class="heading">Guitar</p>
+						  			<span class="icon">
+							  			<i class="fa fa-long-arrow-right"></i>
+							  		</span>
+						  			<p class="title">4,456</p>
+					  			</div>
+						  	</div>
+
+						  	<div id="world-map"></div>
+					  	</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="footer">
+          <div class="container">
+            <div class="content has-text-centered">
+
+                <p>
+                    <div class="shadow"><i class="is-awesome-icon-content">IA</i></div><br>
+                    <strong>is-awesome</strong> by <a href="https://twitter.com/ettorej">Ettoré Jaulin</a>.<br>
+                    For more elements, please visit the <a href="http://bulma.io/">bulma</a> website.
+                </p>
+                <a href="https://ettorej.github.io/is-awesome/" class="shadow-button">
+                    <i class="is-awesome-icon-content">IA</i>
+                </a>
+                <a href="https://github.com/ettorej/is-awesome" class="shadow-button">
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                </a>
+            </div>
+          </div>
+        </footer>
+		<div class="corner-github">
+			<span class="corner-icon">
+				<a href="https://github.com/ettorej/is-awesome/"><i class="fa fa-github"></i></a>
+			</span>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
+	<script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+	<script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.js"></script>
+	<script type="text/javascript" src="dist/js/app.js"></script>
+	<script type="text/javascript" src="dist/js/pages/index.js"></script>
+	</body>
+</html>

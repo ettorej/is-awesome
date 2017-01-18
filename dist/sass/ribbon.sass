@@ -1,0 +1,87 @@
+.ribbon
+  position: absolute
+  top: 50px
+  padding-left: 51px
+  .ribbon-background
+    position: absolute
+    top: 0
+    right: 0
+  .theribbon
+    position: relative
+    display: inline-block
+    padding: 6px 20px 6px 20px
+    margin: 30px 10px 10px -66px
+    color: $white
+    background-color: $turquoise
+    font-family: "Montserrat", Helvetica, Arial, sans-serif
+    &:before
+      content: ' '
+      position: absolute
+      width: 0
+      height: 0
+    &:after
+      content: ' '
+      position: absolute
+      width: 0
+      height: 0
+      left: 0
+      top: 100%
+      border-width: 5px 8px
+      border-style: solid
+      border-color: $turquoise-dark $turquoise-dark transparent transparent
+  &.ribbon-quick-view
+    padding-left: 36px
+    .theribbon
+      margin-left: -59px
+      &:after
+        border-width: 4px 4px
+  &.one
+    top: 0
+  &.two
+    top: 50px
+  &.three
+    top: 100px
+  &.yellow .theribbon
+    background-color: $yellow
+    color: $grey-dark
+    &:after
+      border-color: $yellow-dark $yellow-dark transparent transparent
+  &.red .theribbon
+    background-color: $red
+    &:after
+      border-color: $red-dark $red-dark transparent transparent
+  &.green .theribbon
+    background-color: $green
+    &:after
+      border-color: $green-dark $green-dark transparent transparent
+  &.blue .theribbon
+    background-color: $blue
+    &:after
+      border-color: $blue-dark $blue-dark transparent transparent
+  &.orange .theribbon
+    background-color: $orange
+    &:after
+      border-color: $orange-dark $orange-dark transparent transparent
+  &.purple .theribbon
+    background-color: $purple
+    &:after
+      border-color: $purple-dark $purple-dark transparent transparent
+
+.corner-github
+  position: fixed
+  bottom: 0
+  right: 0
+  width: 0px
+  height: 0px
+  border-top: 77px solid transparent
+  border-bottom: 0px solid transparent
+  border-right: 77px solid $grey-dark
+  .corner-icon
+    position: fixed
+    font-size: 30px
+    bottom: -5px
+    right: 9px
+    a
+      color: $grey-light
+  &:hover .corner-icon a
+    color: $white

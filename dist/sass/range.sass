@@ -1,0 +1,161 @@
+// Radius
+$track-radius: 290486px
+$thumb-radius: 3px
+
+// Colors
+$track-color: $grey-dark
+$track-color-primary: $turquoise
+$track-color-info: $blue
+$track-color-success: $green
+$track-color-warning: $yellow
+$track-color-danger: $red
+$thumb-color: $grey-lighter
+
+// Sizes
+$track-size-small: 0.5rem
+$track-size: 0.75rem
+$track-size-medium: 1rem
+$track-size-large: 1.25rem
+$track-width: 100%
+$thumb-size-small: 1rem
+$thumb-size: 1.25rem
+$thumb-size-medium: 1.5rem
+$thumb-size-large: 1.75rem
+
+input[type=range]
+  &.ranger
+    -webkit-appearance: none
+    margin: 18px 0
+    width: $track-width
+    &:focus
+      outline: none
+    &::-webkit-slider-runnable-track
+      height: $track-size
+      width: $track-width
+      cursor: pointer
+      animate: 0.2s
+      background: $track-color
+      border-radius: $track-radius
+    &::-webkit-slider-thumb
+      height: $thumb-size
+      width: 15px
+      border-radius: $thumb-radius
+      cursor: pointer
+      background-color: $thumb-color
+      border-color: transparent
+      -webkit-appearance: none
+      margin-top: -4px
+    &:focus::-webkit-slider-runnable-track
+      background: $track-color
+    &::-moz-range-track
+      height: $track-size
+      width: $track-width
+      cursor: pointer
+      animate: 0.2s
+      background: $track-color
+      border-radius: $track-radius
+    &::-moz-range-thumb
+      height: $thumb-size
+      width: 15px
+      border-radius: $thumb-radius
+      cursor: pointer
+      border-color: transparent
+      background: $thumb-color
+    &::-ms-track
+      height: $track-size
+      width: $track-width
+      cursor: pointer
+      animate: 0.2s
+      background: transparent
+      border-color: transparent
+      border-width: 16px 0
+      color: transparent
+    &::-ms-fill-lower, &::-ms-fill-upper
+      background: $track-color
+      border-radius: $track-radius
+    &::-ms-thumb
+      height: $thumb-size
+      width: 15px
+      border-radius: $thumb-radius
+      cursor: pointer
+      border-color: transparent
+      background: $thumb-color
+    &:focus::-ms-fill-lower
+      background: $track-color
+  &:focus::-ms-fill-upper
+    background: $track-color
+  &.ranger.is-primary
+    &::-webkit-slider-runnable-track, &:focus::-webkit-slider-runnable-track
+      background: $track-color-primary
+    &::-moz-range-track
+      background: $track-color-primary
+    &::-ms-fill-lower, &::-ms-fill-upper, &:focus::-ms-fill-lower, &:focus::-ms-fill-upper
+      background: $track-color-primary
+  &.ranger.is-info
+    &::-webkit-slider-runnable-track, &:focus::-webkit-slider-runnable-track 
+      background: $track-color-info
+    &::-moz-range-track 
+      background: $track-color-info
+    &::-ms-fill-lower, &::-ms-fill-upper, &:focus::-ms-fill-lower, &:focus::-ms-fill-upper
+      background: $track-color-info
+  &.ranger.is-success
+    &::-webkit-slider-runnable-track, &:focus::-webkit-slider-runnable-track 
+      background: $track-color-success
+    &::-moz-range-track
+      background: $track-color-success
+    &::-ms-fill-lower, &::-ms-fill-upper, &:focus::-ms-fill-lower, &:focus::-ms-fill-upper
+      background: $track-color-success
+  &.ranger.is-warning
+    &::-webkit-slider-runnable-track, &:focus::-webkit-slider-runnable-track 
+      background: $track-color-warning
+    &::-moz-range-track 
+      background: $track-color-warning
+    &::-ms-fill-lower, &::-ms-fill-upper, &:focus::-ms-fill-lower, &:focus::-ms-fill-upper
+      background: $track-color-warning
+  &.ranger.is-danger
+    &::-webkit-slider-runnable-track, &:focus::-webkit-slider-runnable-track 
+      background: $track-color-danger
+    &::-moz-range-track 
+      background: $track-color-danger
+    &::-ms-fill-lower, &::-ms-fill-upper, &:focus::-ms-fill-lower, &:focus::-ms-fill-upper
+      background: $track-color-danger
+  &.ranger
+    &.is-small
+      &::-webkit-slider-runnable-track
+        height: $track-size-small
+      &::-webkit-slider-thumb
+        height: $thumb-size-small
+      &::-moz-range-track
+        height: $track-size-small
+      &::-moz-range-thumb
+        height: $thumb-size-small
+      &::-ms-track
+        height: $track-size-small
+      &::-ms-thumb
+        height: $thumb-size-small
+    &.is-medium
+      &::-webkit-slider-runnable-track
+        height: $track-size-medium
+      &::-webkit-slider-thumb
+        height: $thumb-size-medium
+      &::-moz-range-track
+        height: $track-size-medium
+      &::-moz-range-thumb
+        height: $thumb-size-medium
+      &::-ms-track
+        height: $track-size-medium
+      &::-ms-thumb
+        height: $thumb-size-medium
+    &.is-large
+      &::-webkit-slider-runnable-track
+        height: $track-size-large
+      &::-webkit-slider-thumb
+        height: $thumb-size-large
+      &::-moz-range-track
+        height: $track-size-large
+      &::-moz-range-thumb
+        height: $thumb-size-large
+      &::-ms-track
+        height: $track-size-large
+      &::-ms-thumb
+        height: $thumb-size-large

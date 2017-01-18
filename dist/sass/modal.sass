@@ -1,0 +1,126 @@
+.modal
+  &.is-active
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  display: none
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  overflow: hidden
+  position: fixed
+  z-index: 1986
+
+.modal-background
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
+  background-color: rgba(10, 10, 10, 0.86)
+
+@media screen and (min-width: 769px)
+  .modal-content, .modal-card
+    margin: 0 auto
+    max-height: calc(100vh - 40px)
+    width: 640px
+
+.modal-content, .modal-card
+  margin: 0 20px
+  max-height: calc(100vh - 160px)
+  overflow: auto
+  position: relative
+  width: 100%
+
+.modal-close
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  -moz-appearance: none
+  -webkit-appearance: none
+  background-color: rgba(10, 10, 10, 0.1)
+  border: none
+  border-radius: 290486px
+  cursor: pointer
+  display: inline-block
+  height: 24px
+  outline: none
+  position: relative
+  vertical-align: top
+  width: 24px
+  background: none
+  height: 40px
+  position: fixed
+  right: 20px
+  top: 20px
+  width: 40px
+
+.modal-card, .modal-content
+  max-width: 800px
+
+.modal-card-head
+  border-bottom: 1px solid $grey-lighter
+  border-top-left-radius: 3px
+  border-top-right-radius: 3px
+
+.modal-card
+  .modal-card-foot
+    border-bottom-left-radius: 3px
+    border-bottom-right-radius: 3px
+    border-top: 1px solid $grey-lighter
+    background-color: $white
+  .modal-card-head
+    background-color: $white
+  &.is-primary
+    .modal-card-foot, .modal-card-head
+      background-color: $turquoise
+    .modal-card-title
+      color: $white
+    .modal-card-head
+      border-bottom: 1px solid $turquoise-dark
+    .modal-card-foot
+      border-top: 1px solid $turquoise-dark
+  &.is-info
+    .modal-card-foot, .modal-card-head
+      background-color: $blue
+    .modal-card-title
+      color: $white
+    .modal-card-head
+      border-bottom: 1px solid $blue-dark
+    .modal-card-foot
+      border-top: 1px solid $blue-dark
+  &.is-warning
+    .modal-card-foot, .modal-card-head
+      background-color: $yellow
+    .modal-card-head
+      border-bottom: 1px solid $yellow-dark
+    .modal-card-foot
+      border-top: 1px solid $yellow-dark
+  &.is-success
+    .modal-card-foot, .modal-card-head
+      background-color: $green
+    .modal-card-title
+      color: $white
+    .modal-card-head
+      border-bottom: 1px solid $green-dark
+    .modal-card-foot
+      border-top: 1px solid $green-dark
+  &.is-danger
+    .modal-card-foot, .modal-card-head
+      background-color: $red
+    .modal-card-title
+      color: $white
+    .modal-card-head
+      border-bottom: 1px solid $red-dark
+    .modal-card-foot
+      border-top: 1px solid $red-dark

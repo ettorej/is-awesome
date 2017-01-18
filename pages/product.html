@@ -1,0 +1,665 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Is-awesome - bulma template</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta name="description" content="Is-awesome is an open source Bulma template.">
+        <meta name="keywords" content="bulma, bulma template, template, is-awesome, html template, bulma.io, bulma.io template, is-awesome template, dashboard,
+        dashboard template, bulma dashboard"> 
+        <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="../icons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="../icons/favicon-194x194.png" sizes="194x194">
+        <link rel="icon" type="image/png" href="../icons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="../icons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="../icons/manifest.json">
+        <link rel="mask-icon" href="../icons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="../icons/favicon.ico">
+        <meta name="msapplication-config" content="../icons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.0/css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="../dist/css/is-awesome.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    </head>
+    <body>
+    <nav class="nav has-shadow is-fixed-top">
+        <div class="container">
+            <div class="nav-left">
+                <a class="nav-item is-brand" href="https://ettorej.github.io/is-awesome/">is-awesome</a>
+                <a id="menu" class="nav-item is-tab">
+                    <span class="icon">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="nav-right is-hidden-mobile">
+                <div class="nav-item dropdown">
+                    <a class="dropbtn">
+                        <span class="icon">
+                            <i class="fa fa-bell-o"></i>
+                        </span>
+                        <span class="label label-danger">8</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a class="divider-text">You have 4 new meetings</a>
+                        <div class="scrollable-items">
+                            <a href="#">
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-trash-o"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> 4 messages deleted</span>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-id-card-o"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> You changed your profile</span>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-info-circle"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> 5 new members</span>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-thumbs-up"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> 2 more likes</span>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> 5 sales made</span>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="#">See all notifications</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="dropbtn">
+                        <span class="icon">
+                            <i class="fa fa-calendar-o"></i>
+                        </span>
+                        <span class="label label-success">4</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a class="divider-text">You have 4 new meetings</a>
+                        <div class="scrollable-items">
+                            <a href="#">
+                                <div class="meeting">
+                                    <p>Mr JB Straubel - Tesla Motors</p>
+                                    <small>today 8am</small>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="meeting">
+                                    <p>Mr Carlos Tavares - Peugeot</p>
+                                    <small>today 5pm</small>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <p>Mr Akio Toyoda - Toyota Motor Corporation</p>
+                                    <small>in 2 days 2pm</small>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <p>Mr Harald Krüger - BMW</p>
+                                    <small>in 7 days 4pm</small>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="#">See all meetings</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="dropbtn">
+                        <span class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </span>
+                        <span class="label label-warning">12</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a class="divider-text">You have 12 new messages</a>
+                        <div class="scrollable-items">
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Jenna Sandoval</strong><br>
+                                            <p>I'll get my kit!</p>
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Zachary Clayton</strong><br>
+                                            It's art! 
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Jenna Sandoval</strong><br>
+                                            No, I'll fix it. I'm good at fixing ...
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Zachary Clayton</strong><br>
+                                            The way I see it, every life is a ...
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Zachary Clayton</strong><br>
+                                            Saving the world with meals ...
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                        </div>
+                        <a href="#">See all messages</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown user">
+                    <a class="dropbtn">Sarah Fisher</a>
+                    <div class="dropdown-content">
+                        <div class="card is-fullwidth">
+                            <div class="card-content">
+                                <div class="content">
+                                    <figure class="image is-64x64 is-centered-mobile">
+                                        <img src="../img/64x64.png"/>
+                                    </figure>
+                                    <p class="heading">Sarah Fisher</p>
+                                    <p class="subtitle is-6">Web developper</p>
+                                    <small>11:09 PM - 1 Jan 2016</small>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="profile.html" class="card-footer-item">Profile</a>
+                                <a href="#" class="card-footer-item">Log out</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="side-nav" class="sidenav">
+        <aside class="menu">
+            <div class="user-side-bar">
+                <div class="background"></div>
+                <figure class="image is-48x48">
+                    <img src="../img/256x256.png">
+                </figure>
+                <p class="heading">Sarah Ficher<br>sfisher@is-awesome.com</p>
+                <p class="">Web developper</p>
+            </div>
+
+            <div class="search-side-bar">
+                <p class="control has-icon has-icon-right side-bar-style">
+                  <input class="input" type="text" placeholder="Search">
+                  <span class="icon is-small">
+                    <i class="fa fa-search"></i>
+                  </span>
+                </p>
+            </div>
+
+            <div class="content-side-bar">
+                <div class="is-hidden-tablet">
+                    <p class="menu-label">Navigation</p>
+                    <ul class="menu-list">
+                        <li><a href="#">Notifications <span class="tag is-danger is-small is-pulled-right">8</span></a></li>
+                        <li><a href="#">Meetings <span class="tag is-success is-small is-pulled-right">4</span></a></li>
+                        <li><a href="#">Messages <span class="tag is-warning is-small is-pulled-right">12</span></a></li>
+                    </ul>
+                </div>
+
+                <p class="menu-label">General</p>
+                <ul class="menu-list">
+                    <li><a href="../index.html">Dashboard</a></li>
+                    <li class="treeview">
+                        <a>Pages<span class="is-pulled-right"><i class="fa fa-angle-left"></i></span></a>
+                        <ul class="treeview-menu">
+                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="invoice.html">Invoice</a></li>
+                            <li><a href="error/404.html">404 error</a></li>
+                            <li><a href="error/500.html">500 error</a></li>
+                            <li>
+                                <a href="product.html" class="is-active">Product</a>
+                                <ul>
+                                    <li><a href="detail-product.html">Detail</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a>Mailbox<span class="is-pulled-right"><i class="fa fa-angle-left"></i></span></a>
+                        <ul class="treeview-menu">
+                            <li><a href="mailbox/mailbox.html">Inbox</a></li>
+                            <li><a href="mailbox/composemail.html">Compose a mail</a></li>
+                            <li><a href="mailbox/readmail.html">Read a mail</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li class="treeview">
+                        <a>Elements<span class="is-pulled-right"><i class="fa fa-angle-left"></i></span></a>
+                        <ul class="treeview-menu">
+                            <li><a href="elements/tabs.html">General</a></li>
+                            <li><a href="elements/packages.html">Packages</a></li>
+                            <li><a href="elements/datatables.html">DataTables</a></li>
+                            <li><a href="elements/validation.html">Validator</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    
+	<section class="hero is-primary is-medium" style="padding-top: 60px;">
+	  <!-- Hero content: will be in the middle -->
+	  <div class="hero-body">
+	    <div class="container has-text-centered">
+	      <h1 class="title">
+	        Product
+	      </h1>
+	      <h2 class="subtitle">
+	        Page
+	      </h2>
+	    </div>
+	  </div>
+	  <div class="hero-foot">
+	    <nav class="tabs is-boxed">
+	      <div class="container">
+	        <ul>
+	          <li class="is-active"><a>All</a></li>
+	          <li><a>Outerwear</a></li>
+	          <li><a>T-Shirts</a></li>
+	          <li><a>Headwear</a></li>
+	          <li><a>Bottoms</a></li>
+	          <li><a>Tops</a></li>
+	          <li><a>Misc</a></li>
+	        </ul>
+	      </div>
+	    </nav>
+	  </div>
+
+	</section>
+
+	<div id="main">
+		<section class="section">
+			<div class="container">
+				<div class="content">
+					Bart, with $10,000 we'd be millionaires! We could buy all kinds of useful things like…love! Oh, a *sarcasm* detector. Oh, that's a *really* useful invention!
+				</div>
+			</div>
+		</section>
+		<section class="hero is-light">
+			<div class="hero-body">
+				<div class="container">
+			 		<div class="columns">
+						<div class="column is-4">
+							<div class="card is-centered-mobile">
+							  <div class="card-image card-image-product">
+							    <figure class="image-product image is-1by1">
+							    	<a href="detail-product.html">
+							      		<img src="../img/480x480.png" alt="">
+							      	</a>
+							    </figure>
+							  </div>
+							  <div class="ribbon red one">
+								<div class="theribbon">-40%</div>
+								<div class="ribbon-background"></div>
+							  </div>
+
+							  <div class="ribbon two">
+								<div class="theribbon">Collection</div>
+								<div class="ribbon-background"></div>
+							  </div>
+							 
+							  <div class="card-content">
+							    <div class="content">
+							    	<p class="price is-pulled-right"><del>$137.00</del> $124.00</p>
+							    	<p class="subtitle">Guitar</p>
+							    </div>
+							  </div>
+						    </div>
+						</div>
+						<div class="column is-4">
+							<div data-kui-anim="fadeIn" class="one-half  custom-column" >
+    							<div class="card is-centered-mobile">
+    							  <div class="card-image card-image-product">
+    							    <figure class="image-product image is-1by1">
+    							    	<a href="detail-product.html">
+    							      		<img src="../img/480x480.png" alt="">
+    							      	</a>
+    							    </figure>
+    							  </div>
+
+    							  <div class="ribbon one">
+    								<div class="theribbon">Collection</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+
+    							  <div class="card-content">
+    							    <div class="content">
+    							    	<p class="price is-pulled-right"><del>$798.00</del> $779.00</p>
+    							    	<p class="subtitle">Drum</p>
+    							    </div>
+    							  </div>
+    							</div>
+							</div>
+						</div>
+						<div class="column is-4">
+							<div data-kui-anim="fadeIn" class="one-half  custom-column" >
+    							<div class="card is-centered-mobile">
+    							  <div class="card-image card-image-product">
+    							    <figure class="image-product image is-1by1">
+    							    	<a href="detail-product.html">
+    							      		<img src="../img/480x480.png" alt="">
+    							      	</a>
+    							    </figure>
+    							  </div>
+    							  <div class="ribbon yellow one">
+    								<div class="theribbon">Sold Out</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+    							  <div class="card-content">
+    							    <div class="content">
+    							    	<p class="price is-pulled-right"><del>$348.00</del> $321.00</p>
+    							    	<p class="subtitle">Guitar</p>
+    							    </div>
+    							  </div>
+    							</div>
+							</div>
+						</div>
+			 		</div>
+			 		<div class="columns">
+						<div class="column is-4">
+							<div data-kui-anim="fadeIn" class="one-half  custom-column" >
+    							<div class="card is-centered-mobile">
+    							  <div class="card-image card-image-product">
+    							    <figure class="image-product image is-1by1">
+    							    	<a href="detail-product.html">
+    							      		<img src="../img/480x480.png" alt="">
+    							      	</a>
+    							    </figure>
+    							  </div>
+
+    							  <div class="ribbon red one">
+    								<div class="theribbon">-20%</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+
+    							  <div class="ribbon blue two">
+    								<div class="theribbon">Collector Edition</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+    							 
+    							  <div class="card-content">
+    							    <div class="content">
+    							    	<p class="price is-pulled-right"><del>$1,254.00</del> $1,242.00</p>
+    							    	<p class="subtitle">Guitar</p>
+    							    </div>
+    							  </div>
+    							</div>
+							</div>
+						</div>
+						<div class="column is-4">
+							<div data-kui-anim="fadeIn" class="one-half  custom-column" >
+    							<div class="card is-centered-mobile">
+    							  <div class="card-image card-image-product">
+    							    <figure class="image-product image is-1by1">
+    							    	<a href="detail-product.html">
+    							      		<img src="../img/480x480.png" alt="">
+    							      	</a>
+    							    </figure>
+    							  </div>
+    							  <div class="ribbon green one">
+    								<div class="theribbon">New collection</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+
+    							  <div class="ribbon orange two">
+    								<div class="theribbon">Collector Edition</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+
+    							  <div class="card-content">
+    							    <div class="content">
+    							    	<p class="price is-pulled-right"><del>$1,037.00</del> $994.00</p>
+    							    	<p class="subtitle">Bass Guitar</p>
+    							    </div>
+    							  </div>
+    							</div>
+							</div>
+						</div>
+						
+						<div class="column is-4">
+							<div data-kui-anim="fadeIn" class="one-half  custom-column" >
+    							<div class="card is-centered-mobile">
+    							  <div class="card-image card-image-product">
+    							    <figure class="image-product image is-1by1">
+    							    	<a href="detail-product.html">
+    							      		<img src="../img/480x480.png" alt="">
+    							      	</a>
+    							    </figure>
+    							  </div>
+    							  <div class="ribbon green one">
+    								<div class="theribbon">New collection</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+    							  <div class="ribbon purple two">
+    								<div class="theribbon">Popular</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+    							  <div class="card-content">
+    							    <div class="content">
+    							    	<p class="price is-pulled-right"><del>$324.00</del> $298.00</p>
+    							    	<p class="subtitle">Ukulele</p>
+    							    </div>
+    							  </div>
+    							</div>
+							</div>
+						</div>
+			 		</div>
+			 		<div class="columns">
+						<div class="column is-4">
+							<div data-kui-anim="fadeIn" class="one-half  custom-column" >
+    							<div class="card is-centered-mobile">
+    							 <div class="card-image card-image-product">
+    							    <figure class="image-product image is-1by1">
+    							    	<a href="detail-product.html">
+    							      		<img src="../img/480x480.png" alt="">
+    							      	</a>
+    							    </figure>
+    							  </div>
+
+    							  <div class="ribbon one">
+    								<div class="theribbon">Collection</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+    							 
+    							  <div class="card-content">
+    							    <div class="content">
+    							    	<p class="price is-pulled-right"><del>$421.00</del> $412.00</p>
+    							    	<p class="subtitle">Bass Guitar</p>
+    							    </div>
+    							  </div>
+    							</div>
+							</div>
+						</div>
+						<div class="column is-4">
+							<div data-kui-anim="fadeIn" class="one-half  custom-column" >
+    							<div class="card is-centered-mobile">
+    							 <div class="card-image card-image-product">
+    							    <figure class="image-product image is-1by1">
+    							    	<a href="detail-product.html">
+    							      		<img src="../img/480x480.png" alt="">
+    							      	</a>
+    							    </figure>
+    							  </div>
+
+    							  <div class="ribbon red one">
+    								<div class="theribbon">-15%</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+
+    							  <div class="ribbon two">
+    								<div class="theribbon">Collection</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+
+    							  <div class="ribbon purple three">
+    								<div class="theribbon">Popular</div>
+    								<div class="ribbon-background"></div>
+    							  </div>
+
+    							  <div class="card-content">
+    							    <div class="content">
+    							    	<p class="price is-pulled-right"><del>$137.00</del> $125.00</p>
+    							    	<p class="subtitle">Drum</p>
+    							    </div>
+    							  </div>
+    							</div>
+							</div>
+						</div>
+						
+						<div class="column is-4">
+							<div data-kui-anim="fadeIn" class="one-half  custom-column" >
+								<div class="card is-centered-mobile">
+								  <div class="card-image card-image-product">
+								    <figure class="image-product image is-1by1">
+								    	<a href="detail-product.html">
+								      		<img src="../img/480x480.png" alt="">
+								      	</a>
+								    </figure>
+								  </div>
+								  <div class="ribbon green one">
+									<div class="theribbon">New Collection</div>
+									<div class="ribbon-background"></div>
+								  </div>
+								  <div class="ribbon yellow two">
+									<div class="theribbon">Sold Out</div>
+									<div class="ribbon-background"></div>
+								  </div>
+								  <div class="card-content">
+								    <div class="content">
+								    	<p class="price is-pulled-right"><del>$37.00</del> $24.00</p>
+								    	<p class="subtitle">Tuning Fork</p>
+								    </div>
+								  </div>
+								</div>
+							</div>
+						</div>
+
+			 		</div>
+		 		</div>
+	 		</div>
+		</section>
+		
+		<footer class="footer">
+          <div class="container">
+            <div class="content has-text-centered">
+
+                <p>
+                    <div class="shadow"><i class="is-awesome-icon-content">IA</i></div><br>
+                    <strong>is-awesome</strong> by <a href="https://twitter.com/ettorej">Ettoré Jaulin</a>.<br>
+                    For more elements, please visit the <a href="http://bulma.io/">bulma</a> website.
+                </p>
+                <a href="https://ettorej.github.io/is-awesome/" class="shadow-button">
+                    <i class="is-awesome-icon-content">IA</i>
+                </a>
+                <a href="https://github.com/ettorej/is-awesome" class="shadow-button">
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                </a>
+            </div>
+          </div>
+        </footer>
+        <div class="corner-github">
+            <span class="corner-icon">
+                <a href="https://github.com/ettorej/ettorej.github.io"><i class="fa fa-github"></i></a>
+            </span>
+        </div>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.js"></script>
+  	<script src='../plugins/kissui.scrollanim/build/scrollanim.js'></script>
+	<script type="text/javascript" src="../dist/js/app.js"></script>
+	<script type="text/javascript" src="../dist/js/pages/product.js"></script>
+	</body>
+</html>

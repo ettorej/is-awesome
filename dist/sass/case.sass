@@ -1,0 +1,38 @@
+.indicator-world-map
+  background-color: $turquoise
+  color: $white
+  border-radius: 0 0 3px 0
+  padding: 20px
+  height: 350px
+  width: 19%
+  .title
+    color: #fff !important
+
+#world-map
+  height: 350px
+  width: 80%
+
+.case
+  display: block
+  margin-top: 15px
+  margin-bottom: 30px
+
+@media screen and (min-width: 768px)
+  .indicator-world-map
+    float: right
+
+@media screen and (max-width: 768px)
+  #world-map
+    height: 350px
+    width: 100%
+  .indicator-world-map
+    height: 120px
+    width: 100%
+    border-radius: 0
+    margin-bottom: 10px
+  .case
+    display: inline-block
+    margin: 0 3%
+  .is-good .message-body
+    padding: 0
+    height: 100%

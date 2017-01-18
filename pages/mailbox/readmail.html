@@ -1,0 +1,607 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Is-awesome - bulma template</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta name="description" content="Is-awesome is an open source Bulma template.">
+        <meta name="keywords" content="bulma, bulma template, template, is-awesome, html template, bulma.io, bulma.io template, is-awesome template, dashboard,
+        dashboard template, bulma dashboard"> 
+        <link rel="apple-touch-icon" sizes="180x180" href="../../icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="../../icons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="../../icons/favicon-194x194.png" sizes="194x194">
+        <link rel="icon" type="image/png" href="../../icons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="../../icons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="../../icons/manifest.json">
+        <link rel="mask-icon" href="../../icons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="../../icons/favicon.ico">
+        <meta name="msapplication-config" content="../../icons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.0/css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="../../dist/css/is-awesome.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <nav class="nav has-shadow is-fixed-top">
+        <div class="container">
+            <div class="nav-left">
+                <a class="nav-item is-brand" href="https://ettorej.github.io/is-awesome/">is-awesome</a>
+                <a id="menu" class="nav-item is-tab">
+                    <span class="icon">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="nav-right is-hidden-mobile">
+                <div class="nav-item dropdown">
+                    <a class="dropbtn">
+                        <span class="icon">
+                            <i class="fa fa-bell-o"></i>
+                        </span>
+                        <span class="label label-danger">8</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a class="divider-text">You have 4 new meetings</a>
+                        <div class="scrollable-items">
+                            <a href="#">
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-trash-o"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> 4 messages deleted</span>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-id-card-o"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> You changed your profile</span>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-info-circle"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> 5 new members</span>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-thumbs-up"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> 2 more likes</span>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </span>
+                                    <span style="vertical-align: top;"> 5 sales made</span>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="#">See all notifications</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="dropbtn">
+                        <span class="icon">
+                            <i class="fa fa-calendar-o"></i>
+                        </span>
+                        <span class="label label-success">4</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a class="divider-text">You have 4 new meetings</a>
+                        <div class="scrollable-items">
+                            <a href="#">
+                                <div class="meeting">
+                                    <p>Mr JB Straubel - Tesla Motors</p>
+                                    <small>today 8am</small>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="meeting">
+                                    <p>Mr Carlos Tavares - Peugeot</p>
+                                    <small>today 5pm</small>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <p>Mr Akio Toyoda - Toyota Motor Corporation</p>
+                                    <small>in 2 days 2pm</small>
+                                </div>
+                            </a>
+                            <a href="#">        
+                                <div class="meeting">
+                                    <p>Mr Harald Krüger - BMW</p>
+                                    <small>in 7 days 4pm</small>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="#">See all meetings</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="dropbtn">
+                        <span class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </span>
+                        <span class="label label-warning">12</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a class="divider-text">You have 12 new messages</a>
+                        <div class="scrollable-items">
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Jenna Sandoval</strong><br>
+                                            <p>I'll get my kit!</p>
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Zachary Clayton</strong><br>
+                                            It's art! 
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Jenna Sandoval</strong><br>
+                                            No, I'll fix it. I'm good at fixing rot.
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Zachary Clayton</strong><br>
+                                            The way I see it, every life is a ...
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="media">
+                                  <figure class="media-left">
+                                    <p class="image is-32x32">
+                                      <img src="../../img/96x96.png">
+                                    </p>
+                                  </figure>
+                                  <div class="media-content">
+                                    <div class="content">
+                                        <small>
+                                            <strong>Zachary Clayton</strong><br>
+                                            Saving the world with meals ...
+                                        </small>
+                                    </div>
+                                  </div>
+                                </article>
+                            </a>
+                        </div>
+                        <a href="#">See all messages</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown user">
+                    <a class="dropbtn">Sarah Fisher</a>
+                    <div class="dropdown-content">
+                        <div class="card is-fullwidth">
+                            <div class="card-content">
+                                <div class="content">
+                                    <figure class="image is-64x64 is-centered-mobile">
+                                        <img src="../../img/64x64.png"/>
+                                    </figure>
+                                    <p class="heading">Sarah Fisher</p>
+                                    <p class="subtitle is-6">Web developper</p>
+                                    <small>11:09 PM - 1 Jan 2016</small>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="../profile.html" class="card-footer-item">Profile</a>
+                                <a href="#" class="card-footer-item">Log out</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="side-nav" class="sidenav">
+        <aside class="menu">
+            <div class="user-side-bar">
+                <div class="background"></div>
+                <figure class="image is-48x48">
+                    <img src="../../img/256x256.png">
+                </figure>
+                <p class="heading">Sarah Ficher<br>sfisher@is-awesome.com</p>
+                <p class="">Web developper</p>
+            </div>
+
+            <div class="search-side-bar">
+                <p class="control has-icon has-icon-right side-bar-style">
+                  <input class="input" type="text" placeholder="Search">
+                  <span class="icon is-small">
+                    <i class="fa fa-search"></i>
+                  </span>
+                </p>
+            </div>
+
+            <div class="content-side-bar">
+                <div class="is-hidden-tablet">
+                    <p class="menu-label">Navigation</p>
+                    <ul class="menu-list">
+                        <li><a href="#">Notifications <span class="tag is-danger is-small is-pulled-right">8</span></a></li>
+                        <li><a href="#">Meetings <span class="tag is-success is-small is-pulled-right">4</span></a></li>
+                        <li><a href="#">Messages <span class="tag is-warning is-small is-pulled-right">12</span></a></li>
+                    </ul>
+                </div>
+
+                <p class="menu-label">General</p>
+                <ul class="menu-list">
+                    <li><a href="../../index.html">Dashboard</a></li>
+                    <li class="treeview">
+                        <a>Pages<span class="is-pulled-right"><i class="fa fa-angle-left"></i></span></a>
+                        <ul class="treeview-menu">
+                            <li><a href="../profile.html">Profile</a></li>
+                            <li><a href="../login.html">Login</a></li>
+                            <li><a href="../register.html">Register</a></li>
+                            <li><a href="../invoice.html">Invoice</a></li>
+                            <li><a href="../error/404.html">404 error</a></li>
+                            <li><a href="../error/500.html">500 error</a></li>
+                            <li>
+                                <a href="../product.html">Product</a>
+                                <ul>
+                                    <li><a href="../detail-product.html">Detail</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a>Mailbox<span class="is-pulled-right"><i class="fa fa-angle-left"></i></span></a>
+                        <ul class="treeview-menu">
+                            <li><a href="../mailbox/mailbox.html">Inbox</a></li>
+                            <li><a href="../mailbox/composemail.html">Compose a mail</a></li>
+                            <li><a href="../mailbox/readmail.html" class="is-active">Read a mail</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../calendar.html">Calendar</a></li>
+                    <li class="treeview">
+                        <a>Elements<span class="is-pulled-right"><i class="fa fa-angle-left"></i></span></a>
+                        <ul class="treeview-menu">
+                            <li><a href="../elements/tabs.html">General</a></li>
+                            <li><a href="../elements/packages.html">Packages</a></li>
+                            <li><a href="../elements/datatables.html">DataTables</a></li>
+                            <li><a href="../elements/validation.html">Validator</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+	<div id="main">
+
+		<section class="hero is-light">
+			<div class="hero-body">
+			<div class="container">
+				<div class="heading">
+					<h1 class="title">Mailbox <small>12 new messages</small></h1>
+				</div>
+			</div>
+			</div>
+		</section>
+		
+		<section class="section">
+			<div class="container">
+				<div class="columns">
+					<div class="column is-3">
+						<a href="composemail.html" class="button is-primary is-fullwidth">Compose</a><br>
+						<nav class="panel">
+						  <p class="panel-heading">Folders</p>
+						  <a class="panel-block is-active" href="#">
+						    <span class="panel-icon">
+						      	<i class="fa fa-inbox" aria-hidden="true"></i>
+						    </span>
+						    Inbox
+						    <span class="tag is-small is-primary is-pulled-right">9</span>
+						  </a>
+						  <a class="panel-block " href="#">
+						    <span class="panel-icon">
+						      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+						    </span>
+						    Sent
+						  </a>
+						  <a class="panel-block" href="#">
+						    <span class="panel-icon">
+						      <i class="fa fa-file-text-o" aria-hidden="true"></i>
+						    </span>
+						    Darfts
+						  </a>
+						  <a class="panel-block" href="#">
+						    <span class="panel-icon">
+						      <i class="fa fa-filter" aria-hidden="true"></i>
+						    </span>
+						    Junk
+						    <span class="tag is-small is-danger is-pulled-right">34</span>
+						  </a>
+						  <a class="panel-block" href="#">
+						    <span class="panel-icon">
+						      <i class="fa fa-trash-o" aria-hidden="true"></i>
+						    </span>
+						    Trash
+						    
+						  </a>
+						  <p class="panel-heading">Labels</p>
+						  <a class="panel-block is-active" href="#">
+						    <span class="panel-icon red">
+						      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+						    </span>
+						   	Important
+						  </a>
+						  <a class="panel-block" href="#">
+						    <span class="panel-icon blue">
+						      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+						    </span>
+						    Social
+						  </a>
+						  <a class="panel-block" href="#">
+						    <span class="panel-icon yellow">
+						      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+						    </span>
+						    Shopping
+						  </a>
+						  <a class="panel-block" href="#">
+						    <span class="panel-icon green">
+						      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+						    </span>
+						    Promotion
+						  </a>
+						</nav>
+					</div>
+					<div class="column is-9">
+						
+						<div class="columns is-mobile">
+							<div class="column is-6 has-text-left">
+								<p class="title">Read a mail</p>
+							</div>
+							<div class="column is-6">
+								<p class="control has-addons is-pulled-right">
+								  <a class="button is-small">
+								    <span class="icon is-small">
+								      <i class="fa fa-chevron-left"></i>
+								    </span>
+								    <span></span>
+								  </a>
+								  <a class="button is-small">
+								    <span class="icon is-small">
+								      <i class="fa fa-chevron-right"></i>
+								    </span>
+								  </a>
+								</p>
+							</div>
+						</div>
+
+						<div class="columns">
+							<div class="column is-12">
+								<div class="level">
+									<div class="level-left">
+										<p class="title is-5">Subject Example</p>
+									</div>
+									<div class="level-right">
+										<span class="mail-stars"><a><i class="fa fa-star-o"></i></a></span>
+									</div>
+								</div>
+								
+								<div class="level">
+									<div class="level-left">
+										<p>Peter Snider&lt;psnider@example.com&gt;</p>
+									</div>
+									<div class="level-right">
+										<small>04 Jan. 2017 08:46 PM</small>
+									</div>
+								</div>
+								
+					
+								<hr>
+								<div class="content" id="scrolling-mail">
+									<p>Hello Sarah Fisher, </p>
+									<p>Take me to your leader! Oh right. I forgot about the battle. Ah, yes! John Quincy Adding Machine. He struck a chord with the voters when he pledged not to go on a killing spree. Kif might! Hi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute.</p>
+									<p>Yes, except the Dave Matthews Band doesn't rock. This is the worst part. The calm before the battle. Ummm…to eBay? Or a guy who burns down a bar for the insurance money! <em> This is the worst part.</em> The calm before the battle.</p>
+									
+									<p>Wow, you got that off the Internet? In my day, the Internet was only used to download pornography. Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain.</p>
+									<ol>
+									    <li>I don't 'need' to drink. I can quit anytime I want!</li><li>It may comfort you to know that Fry's death took only fifteen seconds, yet the pain was so intense, that it felt to him like fifteen years. And it goes without saying, it caused him to empty his bowels.</li><li>Can we have Bender Burgers again?</li>
+
+									</ol>
+									<p>I'm just glad my fat, ugly mama isn't alive to see this day. Fatal. What are their names? Goodbye, friends. I never thought I'd die like this. But I always really hoped. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.</p>
+
+									<p>Thanks,<br>Peter</p>
+								</div>
+								<hr>
+								<div class="columns">
+									<div class="column is-2">
+										<figure class="image is-96x96">
+											<div class="mail-attachements">
+												<i class="fa fa-file-pdf-o extention"></i>
+												<div class="mail-download-attachement">
+													<a><i class="fa fa-download" aria-hidden="true"></i></a>
+												</div>
+											</div>
+											<small>files-01.pdf</small>
+										</figure>
+									</div>
+									<div class="column is-2">
+										<figure class="image is-96x96">
+											<div class="mail-attachements">
+												<i class="fa fa-file-archive-o extention"></i>
+												<div class="mail-download-attachement">
+													<a><i class="fa fa-download" aria-hidden="true"></i></a>
+												</div>
+											</div>
+											<small>files-02.zip</small>
+										</figure>
+									</div>
+									<div class="column is-2">
+										<figure class="image is-96x96">
+											<div class="mail-attachements">
+												<img src="../../img/128x128.png" class="extention">
+												<div class="mail-download-attachement">
+													<a><i class="fa fa-download" aria-hidden="true"></i></a>
+												</div>
+											</div>
+											<small>files-03.jpg</small>
+										</figure>
+									</div>
+									<div class="column is-2">
+										<figure class="image is-96x96">
+											<div class="mail-attachements">
+												<img src="../../img/128x128.png" class="extention">
+												<div class="mail-download-attachement">
+													<a><i class="fa fa-download" aria-hidden="true"></i></a>
+												</div>
+											</div>
+											<small>files-04.jpg</small>
+										</figure>
+									</div>
+								</div>				   
+							</div>
+						</div>
+						<br>
+						<div class="columns">
+							<div class="column is-12">
+								<div class="notification is-danger">
+								  	<button class="delete"></button>
+								  	Use caution with attachments, we have detected a zip file.
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="columns">
+							<div class="column is-6 is-mobile">
+								<div class="control is-grouped">
+								  <p class="control">
+								    <a class="button">
+									  <span class="icon is-small">
+									    <i class="fa fa-trash-o"></i>
+									  </span>
+									  <span>Delete</span>
+									</a>
+								  </p>
+								  <p class="control">
+								   <a class="button">
+									  <span class="icon is-small">
+									    <i class="fa fa-save"></i>
+									  </span>
+									  <span>Save</span>
+									</a>
+								  </p>
+								</div>
+							</div>
+							<div class="column is-6 is-mobile">
+								<div class="control is-grouped is-pulled-right">
+								  <p class="control">
+								    <a class="button">
+									  <span class="icon is-small">
+									    <i class="fa fa-reply"></i>
+									  </span>
+									  <span>Reply</span>
+									</a>
+								  </p>
+								  <p class="control">
+								   <a class="button">
+									  <span class="icon is-small">
+									    <i class="fa fa-share"></i>
+									  </span>
+									  <span>Forward</span>
+									</a>
+								  </p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<footer class="footer">
+          <div class="container">
+            <div class="content has-text-centered">
+
+                <p>
+                    <div class="shadow"><i class="is-awesome-icon-content">IA</i></div><br>
+                    <strong>is-awesome</strong> by <a href="https://twitter.com/ettorej">Ettoré Jaulin</a>.<br>
+                    For more elements, please visit the <a href="http://bulma.io/">bulma</a> website.
+                </p>
+                <a href="https://ettorej.github.io/is-awesome/" class="shadow-button">
+                    <i class="is-awesome-icon-content">IA</i>
+                </a>
+                <a href="https://github.com/ettorej/is-awesome" class="shadow-button">
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                </a>
+            </div>
+          </div>
+        </footer>
+        <div class="corner-github">
+            <span class="corner-icon">
+                <a href="https://github.com/ettorej/is-awesome"><i class="fa fa-github"></i></a>
+            </span>
+        </div>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.js"></script>
+	<script src="https://cdn.ckeditor.com/4.6.1/basic/ckeditor.js"></script>
+	<script type="text/javascript" src="../../dist/js/app.js"></script>
+	<script type="text/javascript" src="../../dist/js/pages/mailbox.js"></script>
+	</body>
+</html>

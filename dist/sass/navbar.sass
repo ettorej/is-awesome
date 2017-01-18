@@ -1,0 +1,85 @@
+
+.nav-item
+  position: relative
+  min-width: 50px
+
+.nav-item
+  .label
+    position: absolute
+    top: 34px
+    right: 7px
+    text-align: center
+    font-size: 9px
+    padding: 2px 3px
+    line-height: .9
+    border-radius: 4px
+  i
+    color: $grey
+
+.nav-item
+  &.user
+    min-width: 160px
+  img
+    max-height: 64px
+  .user-profile footer
+    padding-top: 16px
+  .divider-text
+    text-align: left
+    font-size: 10px
+    text-decoration: none
+  a.divider-text:hover
+    background-color: $white-bis
+
+.nav-item a, a.nav-item
+  color: $grey-darker
+
+.nav.is-fixed-top
+  position: fixed
+  left: 0
+  right: 0
+  z-index: 1030
+  top: 0
+
+.container > .nav > .nav-left > .nav-item:first-child:not(.is-tab), .nav > .container > .nav-left > .nav-item:first-child:not(.is-tab)
+  padding-left: 20px
+
+.is-brand
+  background-color: $turquoise
+  padding: 20px
+  /*font-weight:lighter;
+  letter-spacing: 2px
+
+.dropdown
+  align-items: center
+  padding: 10px
+
+.dropbtn
+  color: $grey
+
+.dropdown-content
+  top: 60px
+  right: 0
+  display: none
+  position: absolute
+  background-color: $white-bis
+  min-width: 280px
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+  border-bottom-right-radius: 2px
+  border-bottom-left-radius: 2px
+  a
+    color: $grey
+    padding: 10px 16px
+    text-decoration: none
+    display: block
+    &:hover
+      background-color: $white-ter
+
+.dropdown:hover
+  .dropdown-content
+    display: block
+  border-bottom: 1px solid $turquoise
+  border-top: 1px solid transparent
+
+.meeting
+  text-align: left
+
