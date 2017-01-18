@@ -36,7 +36,7 @@
 
 ## Copyright and license
 
-Code released under [the MIT license](https://github.com/ettorej/ettorej.github.io/blob/master/LICENSE) (c) Ettoré Jaulin.
+Code released under [the MIT license](https://github.com/ettorej/is-awesome/blob/master/LICENSE) (c) Ettoré Jaulin.
 
 
 
